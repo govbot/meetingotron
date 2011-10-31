@@ -58,4 +58,4 @@ def meeting(request, meeting_id):
 def all(request):
     meetings = models.Meeting.objects.all().order_by('-date_time_started')
     data = {'meetings':meetings,}
-    return render_to_response('all.html', data, context_instance = RequestContext(request))    
+    return render_to_response('all.html', data, context_instance = RequestContext(request))

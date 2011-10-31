@@ -8,8 +8,8 @@
                 <li>
                     {% if not meeting.expired %}<em>{% endif %}
                         <a href="{% url meeting meeting.id %}">{{meeting.title}}</a> (<a href="{{meeting.etherpad_url}}">view notes</a>)
-                    {% if not meeting.expired %} (ongoing)</em>{% endif %}    
-                    
+                    {% if not meeting.expired %} (ongoing)</em>{% endif %}
+
                 </li>
         {% endfor %}
     </ul>

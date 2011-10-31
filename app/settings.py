@@ -62,6 +62,6 @@ DATABASES = {
     'TEST_CHARSET': None,
     'TEST_COLLATION': None,
     'TEST_NAME': None,
-  } 
+  }
 }
 
